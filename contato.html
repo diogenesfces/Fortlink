@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FortLink Soluções | Entre em Contato</title>
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" />
+    <link href="https://fonts.cdnfonts.com/css/eurostile" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="FortLink Soluções">
+        <img class="logo-image" src="assets/logo-fortlink.png" alt="FortLink Soluções" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <a href="index.html">Quem somos</a>
+        <a href="servicos.html">Nossos serviços</a>
+        <a href="contato.html" class="active">Entre em contato</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-contact">
+        <div class="hero-content">
+            <p class="eyebrow">Agende uma reunião</p>
+          <h1>Entre em contato</h1>
+          <p>
+            Conte um pouco sobre sua empresa e vamos desenhar a melhor solução
+            tecnológica para sua operação.
+          </p>
+        </div>
+      </section>
+
+      <section class="content-band contact-section">
+        <form class="contact-form" id="contactForm">
+          <div class="section-heading form-heading">
+            <p class="section-kicker">Contato</p>
+            <h2>Agende uma reunião</h2>
+          </div>
+          <label>
+            Nome
+            <input type="text" name="nome" autocomplete="name" required />
+          </label>
+          <label>
+            Empresa
+            <input type="text" name="empresa" autocomplete="organization" required />
+          </label>
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="6" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button class="primary-button" type="submit">Enviar por e-mail</button>
+            <a class="whatsapp-button" id="whatsappButton" href="#" target="_blank" rel="noreferrer">
+              WhatsApp
+            </a>
+          </div>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+
+        <aside class="contact-aside">
+          <p class="section-kicker">E-mail</p>
+          <a href="mailto:dicostailva@hotmail.com">dicostailva@hotmail.com</a>
+          <p>
+            Ao enviar, seu cliente de e-mail será aberto com a mensagem para
+            <strong>dicostailva@hotmail.com</strong>.
+          </p>
+        </aside>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-brand">
+        <img class="footer-logo" src="assets/logo-fortlink.png" alt="FortLink Soluções" />
+        <span>FortLink soluções</span>
+      </div>
+      <p>
+        CNPJ 0982903820/0001-82 - Avenida General Meira 3040 - Foz do
+        Iguaçu/PR
+      </p>
+      <p>© Copyright 2026 Fortlink - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
