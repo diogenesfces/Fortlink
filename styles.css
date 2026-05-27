@@ -84,8 +84,8 @@ a {
 
 .footer-logo {
   display: block;
-  width: 82px;
-  height: 54px;
+  width: 68px;
+  height: 42px;
   object-fit: contain;
   object-position: left center;
 }
@@ -440,8 +440,8 @@ h3 {
 
 .site-footer {
   display: grid;
-  gap: 10px;
-  padding: 36px clamp(20px, 6vw, 88px);
+  gap: 6px;
+  padding: 16px clamp(20px, 6vw, 88px);
   border-top: 1px solid var(--line);
   background: #080414;
   color: var(--mist);
