@@ -84,8 +84,8 @@ a {
 
 .footer-logo {
   display: block;
-  width: 82px;
-  height: 54px;
+  width: 68px;
+  height: 42px;
   object-fit: contain;
   object-position: left center;
 }
@@ -163,7 +163,7 @@ a {
 }
 
 .hero-services {
-  background-image: url("https://images.unsplash.com/photo-1518709268805-4e9042af2176?auto=format&fit=crop&w=1800&q=85");
+  background-image: url("https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1800&q=85");
 }
 
 .hero-contact {
@@ -440,8 +440,8 @@ h3 {
 
 .site-footer {
   display: grid;
-  gap: 10px;
-  padding: 36px clamp(20px, 6vw, 88px);
+  gap: 6px;
+  padding: 16px clamp(20px, 6vw, 88px);
   border-top: 1px solid var(--line);
   background: #080414;
   color: var(--mist);
