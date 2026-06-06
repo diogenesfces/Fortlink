@@ -1,4 +1,4 @@
-const EMAIL_TO = "dicostailva@hotmail.com";
+const EMAIL_TO = "contato@fortlinksolucoes.com.br";
 const WHATSAPP_NUMBER = "5531999592961";
 
 const navToggle = document.querySelector(".nav-toggle");
