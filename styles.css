@@ -590,8 +590,8 @@ h3 {
 
 .floating-whatsapp {
   position: fixed;
-  bottom: 24px;
-  right: 24px;
+  bottom: 16px;
+  right: 16px;
   width: 64px;
   height: 64px;
   background: #25d366;
@@ -748,4 +748,34 @@ h3 {
     opacity: 0.5;
   }
 }
+@media (max-width: 768px) {
 
+  .contact-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-form,
+  .contact-aside {
+    width: 100%;
+    min-width: 0;
+  }
+
+  .contact-aside a {
+    font-size: 18px;
+    word-break: break-word;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    max-width: 100%;
+  }
+
+  .hero-contact {
+    min-height: auto;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
