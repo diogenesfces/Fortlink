@@ -147,13 +147,9 @@ a {
   align-items: flex-end;
   padding-top: 140px;
   padding: 120px clamp(20px, 6vw, 88px) 90px;
-  overflow: hidden;
+  overflow: clip;
   background-position: center;
   background-size: cover;
-
-  transition: background-position 1s ease;
-
-  animation: heroBackground 14s ease-in-out infinite;
 }
 
 .hero::before {
@@ -592,7 +588,7 @@ h3 {
   position: fixed;
 
   right: 16px;
-  bottom: calc(env(safe-area-inset-bottom, 0px) + 16px);
+  bottom: 16px;
 
   width: 64px;
   height: 64px;
@@ -613,15 +609,13 @@ h3 {
 
   animation: pulse 2s infinite;
 
-  transform: translateZ(0);
+  isolation: isolate;
 
-  -webkit-transform: translateZ(0);
+  contain: layout paint;
+
+  transform: translate3d(0,0,0);
 
   will-change: transform;
-
-  backface-visibility: hidden;
-
-  -webkit-backface-visibility: hidden;
 }
 /* EFEITO PULSANDO */
 
