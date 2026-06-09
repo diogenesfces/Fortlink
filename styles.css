@@ -779,3 +779,11 @@ h3 {
     overflow-x: hidden;
   }
 }
+
+@media (max-width: 900px) {
+
+  .hero-contact {
+    padding-top: 180px;
+  }
+
+}
